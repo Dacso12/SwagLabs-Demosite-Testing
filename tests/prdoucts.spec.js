@@ -19,7 +19,7 @@ test('Cart',async ({page}) => {
     await Cart.click()
 })
 
-test.only('Cart Remove',async ({page}) => {
+test('Cart Remove',async ({page}) => {
     const Login = new loginPage(page)
     const Cart = new cartAdd(page)
     const Remove = new cartRemove(page)
