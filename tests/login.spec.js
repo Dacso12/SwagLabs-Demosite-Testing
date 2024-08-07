@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.describe.only("Check the webiste", () => {
+test.describe("Check the webiste", () => {
     test('Verify the website', async ({page}) => {
         await page.goto('https://www.saucedemo.com')
     
